@@ -5,8 +5,11 @@ public class Demo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("Hello learn");
-		System.out.print("Welcome");
-		System.out.print("Welcome");
-	}
+		 
+		Car bmw=new Car();
+		bmw.setColor("Red");
+		System.out.print("\n");
+		System.out.print(bmw.getColor());
+		}
 
 }
